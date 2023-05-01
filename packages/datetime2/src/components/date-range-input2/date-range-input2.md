@@ -40,7 +40,7 @@ uncontrolled mode and specify an initial date by setting `defaultValue`.
 Use the `onChange` prop callback to listen for changes to the selected day and
 the `onError` prop to react to invalid dates entered in the text inputs.
 
-Unlike the `DateRangeInput` component, this component uses ISO strings to represent timestamp values.
+Unlike the `DateRangeInput` component, this component uses JS Date objects to represent timestamp values.
 This data type is used in the `value` prop and the `onChange` callback.
 
 @## Date formatting
